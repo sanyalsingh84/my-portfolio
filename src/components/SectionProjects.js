@@ -133,11 +133,12 @@ const SectionProjects = ({ addProLine, addProHead, section, addSection }) => {
           </div>
           <div
             onClick={() =>
-              window.open("https://sanyal-proshop-app.herokuapp.com/", "_blank")
+              window.open("https://proshop-v2.vercel.app/", "_blank")
             }
             id="img-1"
             className="project-image image-1"
-            ref={addImage}></div>
+            ref={addImage}
+          ></div>
         </article>
         <div className="projects-line" ref={addProLine}></div>
 
@@ -167,7 +168,8 @@ const SectionProjects = ({ addProLine, addProHead, section, addSection }) => {
                 window.open("https://github-project1.netlify.app", "_blank")
               }
               className="project-image image-2"
-              ref={addImage2}></div>
+              ref={addImage2}
+            ></div>
           </span>
         </article>
         <div className="projects-line" ref={addProLine}></div>
@@ -201,7 +203,8 @@ const SectionProjects = ({ addProLine, addProHead, section, addSection }) => {
                 )
               }
               className="project-image image-3"
-              ref={addImage}></div>
+              ref={addImage}
+            ></div>
           </span>
         </article>
         <div className="projects-line" ref={addProLine}></div>
@@ -232,7 +235,8 @@ const SectionProjects = ({ addProLine, addProHead, section, addSection }) => {
                 window.open("https://decrypto-1.netlify.app", "_blank")
               }
               className="project-image image-4"
-              ref={addImage2}></div>
+              ref={addImage2}
+            ></div>
           </span>
         </article>
         <div className="projects-line" ref={addProLine}></div>

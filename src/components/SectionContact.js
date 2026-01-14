@@ -18,13 +18,15 @@ const SectionContact = ({ addSection }) => {
       className="contact"
       ref={(el) => {
         contactSec = el;
-      }}>
+      }}
+    >
       <div ref={addSection} className="project-title">
         <div className="heading">
           <h2
             ref={(el) => {
               contactHead = el;
-            }}>
+            }}
+          >
             CONTACT ME
           </h2>
           <a
@@ -32,7 +34,8 @@ const SectionContact = ({ addSection }) => {
               contactLink = el;
             }}
             className="email-link"
-            href="mailto:sanyalsingh84@gmail.com">
+            href="mailto:sanyalsingh84@gmail.com"
+          >
             sanyalsingh84@gmail.com
           </a>
         </div>
@@ -40,17 +43,19 @@ const SectionContact = ({ addSection }) => {
           ref={(el) => {
             contactLine = el;
           }}
-          className="projects-line"></div>
+          className="projects-line"
+        ></div>
         <div
           ref={(el) => {
             contactMedia = el;
           }}
-          className="social-links">
-          <a href="https://www.instagram.com/sa9yal/" target="_blank">
-            instagram
+          className="social-links"
+        >
+          <a href="https://www.linkedin.com/in/sa9yal/" target="_blank">
+            LinkedIn
           </a>
-          <a href="https://twitter.com/sanyalsingh84" target="_blank">
-            twitter
+          <a href="https://github.com/sanyalsingh84" target="_blank">
+            Github
           </a>
         </div>
       </div>

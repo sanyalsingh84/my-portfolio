@@ -485,6 +485,13 @@ article {
   list-style: none;
   font-size: 1.5rem;
   color: rgb(124, 123, 123);
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  color: black;
+  border-bottom-color: black;
 }
 
 .hide {

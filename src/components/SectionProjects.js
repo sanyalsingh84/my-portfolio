@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { projectAni, projectAni2 } from "./animation";
 import gsap from "gsap";
-import { CSSRulePlugin } from "gsap/CSSRulePlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const SectionProjects = ({ addProLine, addProHead, section, addSection }) => {
@@ -179,28 +178,28 @@ const SectionProjects = ({ addProLine, addProHead, section, addSection }) => {
         <article id="pro-3" className="pro-one" ref={addArticles}>
           <div className="project-title">
             <div className="heading left" ref={addHeading}>
-              <h1>React</h1>
-              <h1>Netflix Clone</h1>
+              <h1>AuditStream</h1>
+              <h1>Accessbility Tool</h1>
             </div>
             <div className="projects-line" ref={addLine}></div>
             <div className="disc" ref={addDisc}>
               <h2>
-                This React project has multiple pages: Home, Browse (which uses
-                Firebase authentication), sign in, and sign up. The sign in will
-                connect to Firebase when a user tries to sign in, and when a
-                user signs up, I used Firebase auth to store the user in the
-                Firebase auth database. I built this app using React and uses
-                Styled Components for all the styling implement.
+                This full-stack web application is designed to scan websites for
+                accessibility issues and generate structured reports. The
+                frontend is built with React and provides multiple views for
+                initiating scans and reviewing results, while the backend uses
+                Node.js and Express to process scan requests. Axe-core is
+                integrated to perform standards-based accessibility analysis,
+                and MongoDB is used to store scan results and history. The
+                application follows a clear frontend–backend architecture and is
+                built with production scalability in mind.
               </h2>
             </div>
           </div>
           <span className="image-cover">
             <div
               onClick={() =>
-                window.open(
-                  "https://react-netflix1-clone.netlify.app",
-                  "_blank"
-                )
+                window.open("https://accessbility-tool.vercel.app/", "_blank")
               }
               className="project-image image-3"
               ref={addImage}

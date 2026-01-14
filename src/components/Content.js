@@ -42,7 +42,7 @@ const Content = ({ section, addSection }) => {
     <section className="main-content">
       <div className="container">
         <section id="home" className="hero-title">
-          <h1 ref={addHeroTitle}>Frontend Web Developer</h1>
+          <h1 ref={addHeroTitle}>Fullstack Developer</h1>
           <h1 ref={addHeroTitle}>With Backend knoweldge</h1>
           <h1 ref={addHeroTitle}>And Designing Skills.</h1>
         </section>
